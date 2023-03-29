@@ -1,16 +1,22 @@
+region = "us-east-1"
+access_key = "AKIARBIULF2RQDBC66XQ"
+secret_key = "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"
+
+
 vpc_config = {
 
-	vpc01 = {
-	  vpc_cidr_block = "192.168.0.0/16"
+        vpc01 = {
+          vpc_cidr_block = "192.168.0.0/16"
 
-	  tags = {
-		
-		"Name" = "my_vpc"
+          tags = {
 
-	}
+                "Name" = "my_vpc"
+
+        }
   }
 
 }
+
 
 
 subnet_config = {
