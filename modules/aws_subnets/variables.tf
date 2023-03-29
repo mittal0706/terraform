@@ -1,4 +1,4 @@
-variable "availablity_zone" {
+variable "availability_zone" {
 
 }
 
